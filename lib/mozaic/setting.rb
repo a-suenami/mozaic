@@ -42,9 +42,9 @@ module Mozaic
     def db_name
       @options[:d] || @data[:db][:name]
     end
-    
+
     def rdbms
-      @data[:d][:rdbms]
+      @data[:db][:rdbms]
     end
 
     def user
